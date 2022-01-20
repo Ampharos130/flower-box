@@ -1,4 +1,30 @@
 .flowerImage{
     max-width: 250px;
     max-height: auto;
+   
+}
+
+.FlowerDiv{
+    margin: 50px;
+    margin-bottom: 50px;
+    border-width: 1px;
+    box-shadow: 4px 4px rgb(233, 233, 233);
+}
+
+
+p{
+    text-align: end;
+    text-justify: auto;
+    max-width: 35px;
+    margin-left: 245px;
+    background-color: var(--darker-pink);
+    color: white;
+    font-weight: bold;
+}
+
+.flowerLi{
+    background-color: var(--tag-and-footer);
+    color: var(--tag-text);
+    text-align: center;
+    padding: 5px;
 }

@@ -2,9 +2,9 @@ import './Footer.css'
 
 function Footer(){
     return(
-        <div>
+        <div className='FooterDiv'>
             <footer>
-            <img src="https://i.imgur.com/KxfWH9J.png" alt="Logo here" />
+            <img src="https://i.imgur.com/KxfWH9J.png" alt="Logo here" className='footerImg'/>
             <div>
                 <h5>customer service</h5>
                 <li>SATISFCATION COMMITMENT</li>

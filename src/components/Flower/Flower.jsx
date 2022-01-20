@@ -2,19 +2,12 @@ import './Flower.css'
 
 function Flower(props){
     return(
-        <div>
-            <li>
-                <div>
-                    <img src="https://i.imgur.com/0UCzcZM.jpg" className='flowerImage'/>
-                    <h5>forgive-me-pleases</h5>
-                    <p>$50</p>
-                    <li>pink</li>
-                    <li>roses</li>
-                    <li>bouqet</li>
-                    <li>apologies</li>
+                <div className='FlowerDiv'>
+                    <img src={props.image} className='flowerImage' alt='FlowerImageHere'/>
+                    <h5>{props.name}</h5>
+                    <p>${props.price}</p>
+                    <li className='flowerLi'>{props.tags.join('  ')}</li>
                 </div>
-            </li>
-        </div>
     );
 }
 

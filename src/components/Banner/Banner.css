@@ -1,0 +1,8 @@
+.bannerImg{
+    margin-left: 0px;
+}
+
+.BannerDiv{
+    display: flex;
+    justify-content: center;
+}

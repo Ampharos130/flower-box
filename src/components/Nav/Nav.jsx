@@ -2,7 +2,7 @@ import './Nav.css'
 
 function Nav(){
     return(
-        <div>
+        <div className='NavDiv'>
             <nav>
                 <ul>
                     <li>

@@ -1,1 +1,21 @@
 
+
+body{
+  background-color: whitesmoke;
+  margin: 75px;
+}
+
+.flowerGrid{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  margin: 50px;
+  justify-content: space-around;
+  max-width: 1350px;
+  margin-left: 350px;
+  
+}
+
+h5{
+  color: var(--blue);
+}
